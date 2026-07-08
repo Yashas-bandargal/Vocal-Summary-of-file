@@ -1,0 +1,32 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary/dev files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.ipynb_checkpoints/
+
+# Streamlit / app secrets
+.streamlit/
+
+# Local temp scripts
+tempCodeRunnerFile.py
