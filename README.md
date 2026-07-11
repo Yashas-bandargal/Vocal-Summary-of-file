@@ -47,6 +47,17 @@ python basicrag.py
 4. Ask questions about the PDF content.
 5. Optionally choose to play the answer as spoken audio.
 
+## Example
+
+```bash
+python basicrag.py
+```
+
+- Enter API key: `YOUR_GEMINI_API_KEY`
+- Enter PDF path: `C:\Users\Asus\Desktop\example.pdf`
+- Question: `What does this document describe?`
+- Play answer as speech: `y`
+
 ## How it works
 
 1. **PDF extraction**: `pypdf` reads each page and extracts text.
